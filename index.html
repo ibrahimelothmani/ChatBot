@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr" data-bs-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chatbot avec ChatGPT</title>
+    <!-- Bootstrap CSS v5.2.1 -->
+<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-info">
+    <p class="container text-bg-primary" style="text-align: center;">Ibrahim Chatbot</p>
+    <div class="container text-bg-warning">
+        <div id="chatbox"></div>
+        <div class="input-group mb-3">
+            <input type="text" id="user-input" class="form-control" placeholder="Tapez votre message...">
+            <div class="input-group-append">
+                <button class="btn btn-outline-secondary text-bg-danger" type="button" onclick="sendMessage()">Envoyer</button>
+            </div>
+        </div>
+    </div>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="script.js" defer></script>
+    <script src="openai-test.js"></script>
+</body>
+
+</html>
